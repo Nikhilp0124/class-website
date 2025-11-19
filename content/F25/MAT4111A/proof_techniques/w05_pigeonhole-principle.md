@@ -1,7 +1,9 @@
 ---
 title: Pigeonhole principle
 layout: layouts/base
-blog: MAT4111AF25
+courseNumber: MAT4111A
+term: F25
+type: problems
 week: 5
 ---
 # Pigeonhole principle

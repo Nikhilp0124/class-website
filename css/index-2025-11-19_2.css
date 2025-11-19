@@ -446,3 +446,54 @@ details {
   padding-bottom: 2%;
   justify-content: center;
 }
+
+.footnotes {
+  counter-reset: fn;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footnotes li {
+  counter-increment: fn;
+  margin: 0.5em 0;
+  position: relative;
+}
+
+.footnotes li::before {
+  content: counter(fn);
+  font-size: 0.7em;
+  vertical-align: super;
+  margin-right: 0.3em;
+}
+
+.grid {
+  display: grid;
+  gap: 0.5rem;
+  align-items: end;
+}
+
+.three-column.grid {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.hw-list-item {
+	container-type: inline-size;
+	text-align: center;
+	color: var(--color-gray-90);
+	background-color: var(--color-gray-20);
+	aspect-ratio: 2;
+	border-radius: 1em;
+}
+
+a.hw-list-item:hover {
+	color: var(--text-color-link);
+}
+
+a.hw-list-item {
+	text-decoration: none;
+}
+
+.hw-link {
+	font-size: 30cqw;
+	line-height: 1.2;
+}

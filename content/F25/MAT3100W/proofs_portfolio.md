@@ -1,26 +1,30 @@
 ---
 title: 'Proofs Portfolio (MAT 3100W)'
-layout: layouts/mat3100WF25.njk
+layout: layouts/base.njk
+courseNumber: MAT3100W
+term: F25
+
 ---
 
 # Proofs Portfolio
-(Note: these instructions will continue to be updated until the end of October.)
 
+## Schedule and due dates
 * *Draft 1 due Thursday, 11/06 at 8PM*
-* *Draft 2 due Thursday, 11/13 at 8PM*
-* *Semi-final draft due Thursday, 11/20 at 8PM.*
-* *Final draft due Friday, 11/28 at 8PM.*
+* *Draft 2 due Friday, 11/14 at 8PM*
+* *Semi-final draft due Friday, 11/21 at 8PM.*
+* *Final draft due Friday, 12/05 at 8PM.*
+* *(Latest possible extension is Monday, 12/08 at 12:50PM.)*
 
 ## Getting started
 You started your "Proofs Portfolio" on [HW5 Exercise 3](/F25/MAT3100W/HW05/#required-exercise-3-2), where you downloaded a $\LaTeX$ template.
 
 ## Outline
-Your portfolio will consist of five sections: an introduction, a discussion of mathematical concepts, discussion and examples of proof techniques, an overview of your final project, and a conclusion and reflection.[^1]
+Your portfolio will consist of five sections: an introduction, a discussion of mathematical concepts, discussion and examples of proof techniques, an overview of your group project, and a conclusion and reflection.[^1]
 <ol>
   <li>Introduction</li>
   <li>Mathematical concepts</li>
   <ul>
-    <li>Logic, truth tables, and DeMorgan's laws</li>
+    <li>Logic, truth tables, and De Morgan's laws</li>
     <li>Sets</li>
     <ul>
       <li>Unions, intersections, complements, and set differences</li>
@@ -57,14 +61,14 @@ Your portfolio will consist of five sections: an introduction, a discussion of m
       <li>Universal quantifiers</li>
       <li>Existential quantifiers</li>
       <li>Multiply quantified statements</li>
+      <li>Existence and uniqueness proofs</li>
     </ul>
-    <li>Existence and uniqueness proofs</li>
     <li>Proof by induction</li>
     <li>Proof by contradiction</li>
   </ul>
-  <li>Final project</li>
+  <li>Group project</li>
   <ul>
-    <li>Discuss your final project, including at least one proof.</li>
+    <li>Discuss your group project, including at least one proof.</li>
   </ul>
   <li>Conclusion and reflection</li>
   <ul>
@@ -73,22 +77,36 @@ Your portfolio will consist of five sections: an introduction, a discussion of m
   </ul>
 </ol>
 
-### Introduction
-(You'll write this part last.) Your introduction will provide an overview of the entire document.
+### Section 1: Introduction
+In the world of mathematical research papers, the introduction is often considered the most important section, because it is the part of the paper that's most likely to be read. In your Proofs Portfolio, your topics are less focused than in a research paper, and so there will be less to say. However, an introduction should have at least one sentence for every subsection, and give a reader a sense of what to expect.
 
-### Mathematical concepts
+The goal of the introduction is to give your reader a sense of the topics you focus on and the reasons that you chose those topics. In a document like this, the introduction will not include any formal definitions or propositions, but instead will give your reader a sense of what to expect as they read the rest of the document. The goal is to welcome your readers into your work.
+
+### Section 2: Mathematical concepts
 For each mathematical concept, you should give all relevant definitions (using the `definition` environment), an example (using the `example` environment), and a proposition or theorem (using the `proposition` or `theorem` environments.)
 
-### Proof techniques
+*You can put the proofs in this section and refer to them in the next section, or you can put the proofs in the next section, and refer back to this one.*
+
+### Section 3: Proof techniques
 For each proof technique, you should provide an overview of the proof technique and explanation of why the proof technique works. You should also give at least two examples using each proof technique listed. (Direct proofs, transformation of conditionals, quantifiers, existence and uniqueness proofs, proof by induction, and proof by contradiction.)
+
+*You can put the proofs in this section and refer to them in the previous section, or you can put the proofs in the previous section, and refer to this one.*
 
 You are allowed to use proofs from your homework that you have written.
 
-### Final project
-One component of your group project at the end of the term will involve writing up some details of your findings in your Proofs Portfolio. This section is likely to include definitions, examples, and
+### Section 4: Group project write-up
+During weeks 14 and 15, you will be working on a group project where you explore a topic that we did not cover in the class. In this section, you will write about the topic in your own words. This section should contain roughly two pages of content and should include the following:
+<ul>
+  <li>An introduction to and informal background on the topic.</li>
+  <li>At least one example, one definition, one proposition, and one proof—but probably more than one of each.</li>
+  <li>At least one citation using <a href="https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX"><code>biblatex</code></a> or a similar tool.</li>
+  <li>The final subsection of Section 4 should look like a miniature version of Section 5, where you reflect informally on how the project went, what you learned, what you found difficult, and what you want to know more about.</li>
+</ul>
 
-### Conclusion and reflection
-In your conclusion, you will summarize the ideas and proofs in your portfolio as well as reflect on questions including but not limited to a subset of the following, adapted from Francis Su's "[7 Exam Questions for a Pandemic (or any other time)](https://www.francissu.com/post/7-exam-questions-for-a-pandemic-or-any-other-time)."
+### Section 5: Conclusion and reflection
+In your conclusion, you will reflect the ideas and proofs in your portfolio and on your experience in the class. This is a good place to talk about some of your favorite ideas from the class, and discuss any advice you would give to your past self (or future students) about mathematics, writing, or anything else.
+
+To help guide your reflection, I encourage you to read the following questions, adapted from Francis Su's "[7 Exam Questions for a Pandemic (or any other time)](https://www.francissu.com/post/7-exam-questions-for-a-pandemic-or-any-other-time)."
 
 - **Take one homework problem you have worked on this semester that you struggled to understand and solve, and explain how the struggle itself was valuable.** <br> *In the context of this question, describe the struggle and how you overcame the struggle. You might also discuss whether struggling built aspects of character in you (e.g. endurance, self-confidence, competence to solve new problems) and how these virtues might benefit you in later ventures.*
 - **What mathematical ideas are you curious to know more about as a result of taking this class?** <br> *Give one example of a question about the material that you'd like to explore further, and describe why this is an interesting question to you.*

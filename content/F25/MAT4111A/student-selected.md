@@ -1,12 +1,18 @@
 ---
 title: Student problems
 layout: layouts/base
-blog: MAT4111AF25
+courseNumber: MAT4111A
+term: F25
+type: problems
 ---
 
 <div class="columns">
 <div>
   <h2>R.F.'s problems</h2>
+  <details><!-- (2025-10-27) -->
+    <summary>2008 Putnam: A1</summary>
+    {% include 'content/F25/MAT4111A/problems/contest-problems/putnam/2008_A1.html' %}
+  </details>
   <details><!-- (2025-10-06) -->
     <summary>1995 Putnam: B4</summary>
     {% include 'content/F25/MAT4111A/problems/contest-problems/putnam/1995_B4.html' %}
@@ -123,7 +129,10 @@ blog: MAT4111AF25
 
 <div>
   <h2>O.O.'s problems</h2>
-
+  <details><!-- 2025-10-27 -->
+    <summary>2020 USEMO #4</summary>
+    {% include 'content/F25/MAT4111A/problems/contest-problems/usemo/2020_4.html' %}
+  </details>
   <details><!-- 2025-09-15 -->
     <summary>2024 AMC 12A #15</summary>
     {% include 'content/F25/MAT4111A/problems/contest-problems/amc_12/a_2024_15.html' %}
@@ -140,13 +149,19 @@ blog: MAT4111AF25
 
 <div>
   <h2>K.K's problems</h2>
+  <details><!-- 2025-10-27 -->
+    <summary>1995 Putnam: B1</summary>
+    {% include 'content/F25/MAT4111A/problems/contest-problems/putnam/1995_B1.html' %}
+  </details>
   <details><!-- 2025-09-29 -->
     <summary>2011 Putnam: A1</summary>
     {% include 'content/F25/MAT4111A/problems/contest-problems/putnam/2011_A1.html' %}
   </details>
 
-  <!-- 2025-09-22 -->
-  - Problem 16 (Exam?)
+  <details><!-- 2025-09-22 -->
+    <summary>2024 AMC 12A #16</summary>
+    {% include 'content/F25/MAT4111A/problems/contest-problems/amc_12/a_2024_16.html' %}
+  </details>
 
   <details><!-- 2025-09-08 -->
     <summary>2024 Putnam: B1</summary>
@@ -160,6 +175,10 @@ blog: MAT4111AF25
 
 <div>
   <h2>K.L.'s problems</h2>
+  <details><!-- 2025-10-27 -->
+    <summary>2023 AMC 12A #18</summary>
+    {% include 'content/F25/MAT4111A/problems/contest-problems/amc_12/a_2023_18.html' %}
+  </details>
   <details><!-- 2025-09-08 -->
     <summary>2024 Putnam: B1</summary>
     {% include 'content/F25/MAT4111A/problems/contest-problems/putnam/2024_B1.html' %}

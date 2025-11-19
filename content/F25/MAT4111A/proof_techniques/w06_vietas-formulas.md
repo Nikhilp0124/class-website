@@ -1,7 +1,9 @@
 ---
 title: Vieta's formulas
 layout: layouts/base
-blog: MAT4111AF25
+courseNumber: MAT4111A
+term: F25
+type: problems
 week: 6
 ---
 # Vieta's formulas

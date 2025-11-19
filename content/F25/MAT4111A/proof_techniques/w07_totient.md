@@ -1,7 +1,9 @@
 ---
 title: "Euler's Totient Theorem"
 layout: layouts/base
-blog: MAT4111AF25
+courseNumber: MAT4111A
+term: F25
+type: problems
 week: 7
 ---
 # Euler's Totient Theorem

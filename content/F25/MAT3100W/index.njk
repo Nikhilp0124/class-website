@@ -1,0 +1,33 @@
+---
+title: 'MAT 3100W: Introduction to Mathematical Proof'
+layout: layouts/base.njk
+term: F25
+courseNumber: MAT3100W
+courseTitle: Introduction to Mathematical Proof
+---
+<h1 style="margin:0;">{{ courseNumber }}</h1>
+<h4 style="margin:0;">{{ courseTitle }} ({{ term }})</h4>
+
+<h2>Assignments</h2>
+<div class="three-column grid by-columns">
+{% for post in collections.all | reverse %}
+  {% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
+    <a href="{{ post.url }}" class="hw-list-item">
+      <div>
+        <div class="hw-link">
+          {{ post.data.title }}
+        </div>
+        <div>
+          ({{ post.data.date | dueDate }})
+        </div>
+      </div>
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2>Other assignments</h2>
+<ul>
+  <li><a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio guidelines</a></li>
+  <li><a href="/F25/MAT3100W/group_project/">Group project guidelines</a></li>
+</ul>

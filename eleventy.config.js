@@ -29,16 +29,18 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPairedShortcode("md", (content) => {
     return mdLib.render(content);
   });
+
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 	eleventyConfig
 		.addPassthroughCopy({"./public/": "/"})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./content/**/*.tex")
-		.addPassthroughCopy("./content/assets/*.png")
+		.addPassthroughCopy("./content/assets/**/*.png")
 		.addPassthroughCopy("./content/assets/*.jpeg")
 		.addPassthroughCopy("./content/assets/favicon.svg")
-		.addPassthroughCopy({ "node_modules/mathjax-full/es5": "mathjax" })
-		.addPassthroughCopy({"content/assets/js": "assets/js"})
-		.addPassthroughCopy("css/index.css")
+		.addPassthroughCopy({ "node_modules/@mathjax": "vendor/mathjax" })
+		.addPassthroughCopy({"content/assets/_global": "assets"})
+		.addPassthroughCopy("./css/index-2025-11-19_2.css")
 		.addPassthroughCopy({"node_modules/prismjs/themes/prism.min.css": "css/prism.css"})
 	;
 	eleventyConfig.addWatchTarget("css/**/*.css");
@@ -62,9 +64,15 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 	});
 
-	eleventyConfig.addShortcode("currentBuildDate", () => {
-		return (new Date()).toLocaleString();
-	});
+	eleventyConfig.addFilter("dueDate", function (dateObj) {
+    const d = new Date(dateObj);
+
+	  const weekday = ["Su", "M", "Tu", "W", "Th", "F", "Sa"][d.getUTCDay()];
+    const month   = d.toLocaleDateString("en-US", { timeZone: "UTC", month: "2-digit" });
+		const day     = d.toLocaleDateString("en-US", { timeZone: "UTC", day: "2-digit" });
+
+    return `${weekday}, ${month}/${day}`;
+  });
 
 	eleventyConfig.amendLibrary("md", mdLib => {
   	mdLib.use(markdownItFootnote);

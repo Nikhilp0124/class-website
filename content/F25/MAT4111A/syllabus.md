@@ -1,10 +1,11 @@
 ---
 title: 'MAT 4111A syllabus'
-layout: layouts/mat4111AF25.njk
+term: F25
+courseNumber: MAT4111A
+layout: layouts/base.njk
 ---
 
 <h1>MAT 4111A: Putnam Preparation</h1>
-<p><i>(Last updated: {% currentBuildDate %})</i></p>
 <p>Welcome to "Putnam Preparation!"</p>
 
 <h2>Course Information</h2>

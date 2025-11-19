@@ -1,10 +1,11 @@
 ---
 title: 'MAT 3100W syllabus'
-layout: layouts/mat3100WF25.njk
+layout: layouts/base.njk
+courseNumber: MAT3100W
+term: F25
 ---
 
 <h1>MAT 3100W: Introduction to Mathematical Proof</h1>
-<p><i>(Last updated: {% currentBuildDate %})</i></p>
 
 <h2>Course Information</h2>
 <ul>
@@ -54,7 +55,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
 
 <h3>Expanded description</h3>
 <ul>
-  <li>Propositional logic, truth tables, DeMorgan's Laws</li>
+  <li>Propositional logic, truth tables, De Morgan's Laws</li>
   <li>Sets, set operations, Venn diagrams, indexed collections of sets</li>
   <li>Conventions of writing proofs</li>
   <li>Proofs</li>
@@ -112,7 +113,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
   <tr><td>Homework</td><td>55%</td></tr>
   <tr><td>In-class participation</td><td>15%</td></tr>
   <tr><td>Term paper</td><td>20%</td></tr>
-  <tr><td>Final project</td><td>10%</td></tr>
+  <tr><td>Group project</td><td>10%</td></tr>
 </table>
 <table>
   <tr><td>A</td><td>≥ 93</td></tr>
@@ -156,7 +157,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
 
 <h3>Make-up homework</h3>
 <p>
-  You will be given opportunities to redo homework exercises for full credit. In order to redo a problem, you will be asked to either re-submit a thorough answer-key writeup or create a video explaining your solution to other students in the class.
+  You will be given opportunities to redo homework exercises for full credit. In order to redo a problem, you will be asked to either re-submit a thorough answer-key write-up or create a video explaining your solution to other students in the class.
 </p>
 
 <h3>Late work and extensions</h3>
@@ -372,29 +373,27 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">11</td>
     <td>November 3rd</td>
-    <td>Intro to combinatorics</td>
+    <td>(Un)countability<br>Proofs workshop</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 5th</td>
     <td>
-      Intro to real analysis<br>
-      <span class="due">HW09 and draft 1 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/6 at 8PM.</span>
+      Proofs workshop<br>
+      <span class="due">HW09 and draft 1 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/6 at 8PM</span>
     </td>
-
   </tr>
-
   <tr>
     <td rowspan="2">12</td>
     <td>November 10th</td>
-    <td>Intro to abstract algebra</td>
+    <td>Intro to real analysis part 1 (arbitrarily close)</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 12th</td>
     <td>
-      Mathematical topics review<br>
-      <span class="due">HW10 and draft 2 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/13 at 8PM.</span>
+      Intro to real analysis part 2 (arbitrarily close)<br>
+      <span class="due">HW10 and draft 2 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/13 at 8PM</span>
     </td>
   </tr>
 
@@ -403,28 +402,32 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>November 17th</td>
     <td>
       Introduction to group project<br>
-      Proofs portfolio workshop
+      Proofs Portfolio workshop
     </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 19th</td>
     <td>
-      Proofs portfolio workshop<br>
-      <span class="due">Semi-final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/20 at 8PM.</span>
+      Proofs Portfolio workshop<br>
+      <span class="due">Semi-final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Friday, 11/21 at 8PM</span>
     </td>
   </tr>
 
   <tr>
     <td rowspan="2">14</td>
     <td>November 24th</td>
-    <td>Course evaluations. <br> Group project work.</td>
+    <td>
+      Course evaluations
+      <br>
+      Group project work
+    </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 26th</td>
     <td>
-      Group project work. <br>
+      Group project work <br>
       Happy Thanksgiving! 🦃
     </td>
   </tr>
@@ -440,7 +443,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       In-class group project presentation (Part II) <br>
       Wrap-up <br>
-      <span class="due">Final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 12/4 at 8PM.</span>
+      <span class="due">Final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Friday, 12/5 at 8PM.</span>
     </td>
   </tr>
 </table>
