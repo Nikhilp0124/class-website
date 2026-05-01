@@ -34,7 +34,7 @@ Recent research in industrial geometry has introduced the concept of what is kno
 Using this new manifold, the "distance" between two points increases considerably if there is a sudden change in the normal vector (like in cases of an edge or a crease) between them. This allows image editing software to execute anisotropic smoothing (some refer to this as diffusion as well), in which the software reduces noise by smoothing within regions of similar intensity while preventing diffusion across strong edges, maintaining an image’s clarity with aggressive edge smoothing. Below is an example of such smoothing. The image on the left has been left unchanged where the image on the right has had the filtering effect applied. As you you can see, while although the image on the right has experienced some diffusion (notice the color smudging from dark red to gray), it's clarity has have remained intact. (To create this effect, I used the "imdiffusefilt" function in MATLAB.)
 
 <div align="center">
-<img width="1394" height="492" alt="ansidiff" src="https://gist.github.com/user-attachments/assets/c9709a69-5aa6-453b-9d36-9612556ac6ab" />
+<img width="1394" height="492" alt="ansidiff.png" src="Comparison of an image with and without anisotropic smoothing." />
 </div>
 
 ## Part 2: For those suffering in Engineering: The Functional Mechanics of Design
