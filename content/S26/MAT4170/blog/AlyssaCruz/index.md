@@ -32,7 +32,8 @@ So a more conventional example would be the following:
 Euler continued his study of Latin squares developing Graeco-Latin Squares that would also called "Euler squares" Others had studied them before Euler but they were just called a pair of "orthogonal squares". 
 Graeco Latin Squares are $n \times n$ squares with 2 sets $S_1$ and $S_2$ both with $n$ symbols organized with one element from $S_1$ and one element from $S_2$ in each row and column. The trick is that each ordered pair must be unique.  Jacques Ozanam, a French mathematician, proposed the problem to use  playing cards to create a $4 \times 4$ grid with Latin square properties in both the face card values and the suits of the cards. Below is two of many solutions to this puzzle.
 
-<img width="450" height="665" alt="IMG_1171" src="https://gist.github.com/user-attachments/assets/50d1b1dc-df4b-4be9-9c00-1560322d6559" /> *Solution using Cardcaptor Sakura Collector Playing Cards*
+![Solution using Cardcaptor Sakura Collector Playing Cards](IMG_1171.JPG)
+*Solution using Cardcaptor Sakura Collector Playing Cards*
 
 <img width="450" height="665" alt="IMG_1174" src="https://gist.github.com/user-attachments/assets/ef23af37-7ac5-465f-acc3-0fb8b254bbd9" /> *Solution using Sailor Moon Playing Cards with additional diagonal constraint*
 
