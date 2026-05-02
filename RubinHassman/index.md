@@ -8,6 +8,10 @@ term: S26
 layout: layouts/blog.njk
 ---
 
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+
+
 # What is a Manifold:
 
 An $n$-dimensional manifold is a topological surface that resembles a Euclidean space locally at each point, or rather, each point has a neighborhood that is homeomorphic to an open subset of the $n$-dimensional Euclidean space.
@@ -82,7 +86,8 @@ Now $B = - \frac{1}{2} R D_{ij}^{2} R$, implying that $B \approx RYY^{T}R$, wher
   <img src="https://github.com/RubinR10/class-website/blob/a092380976b0f845cb19537112b6cfdc12c2f095/RubinHassman/download.png" width="300">
   <img src="https://github.com/RubinR10/class-website/blob/cf5f834e5933bbcdd03d81e5b709e11103d200e8/RubinHassman/Figure%202026-05-01%20185528.png" width="450">
 </div>
-The left is a 3D Model of a Swiss roll I constructed in Python, and the right is the Isomap of that manifold.
+The left is a 3D Model of a Swiss roll I constructed in Python, and the right is the Isomap of that manifold. Below is a 3D model of the Swiss Roll from Mathematica.
+<model-viewer alt="Your description here." src="filename.glb"></model-viewer>
 
 # Local Linear Embedding
 
