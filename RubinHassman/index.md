@@ -60,7 +60,7 @@ Multi-Dimensional Scaling is a non-linear dimensionality reduction technique tha
 
 Isometric mapping is a form of MDS that focuses on preserving Geodesic distance rather than Euclidean distance. Note that Geodesic distance is the closest distance between two points on the manifold, while Euclidean distance is the closest distance between two points in space.
 
-![image](https://gist.github.com/user-attachments/assets/8fe040cf-6bac-4e8d-bb02-392b3a4ba238)
+![image](https://github.com/RubinR10/class-website/blob/47e14fb53f6142b2fcc48892601f95158709ed49/RubinHassman/Screenshot%202026-05-01%20225237.png)
 [Aviral Agrawal and Theodore LaGrow](https://sites.gatech.edu/omscs7641/2024/03/10/no-straight-lines-here-the-wacky-world-of-non-linear-manifold-learning/)
 
 Because Geodesic distances are often difficult and impractical to find, we can instead use approximation techniques to find the Geodesic distances. To get these approximations, we first want to build a “neighborhood graph”. We want to build this graph by only connecting “close” points with “edges weighted by their Euclidean distances”. This is represented by $d_{X} (i,j) = \lVert x_{i} - x_{j} \rVert$. Here we will define closeness to be one of two ways: the $\epsilon$-radius method and the $kNN$ method. [Guangliang Chen](https://www.sjsu.edu/faculty/guangliang.chen/Math253S20/lec10ISOmap.pdf)
