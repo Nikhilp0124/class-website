@@ -30,7 +30,7 @@ Despite some clear commonalities, the genetic code and evolution algebras have q
 
 The biggest difference between genetic code and evolution algebras is that genetic code forms a group. The genetic code, or Mendelian genetics, can be expressed as either the Lie Group or the Klein 4 Group on how genes are passed on through generations. Taking the Klein 4 Group as an example, we can illustrate how genetic code relates to group theory and abstract algebra. The [Klein 4 Group][Genetic code 2], $K_4$, is an abelian group that is isomorphic to the dihedral group $D_2$. The image below shows this isomorphism. 
 
-<img width="576" height="432" alt="blog post - D2 K4 isomorphism" src="https://gist.github.com/user-attachments/assets/4feb7258-5c60-4153-ae21-a0c43b004d23" />
+<img width="576" height="432" alt="blog post - D2 K4 isomorphism" src="blog post - D2 K4 isomorphism.jpg" />
 
 The genetic code is symmetric using code-doublets, which can be partitioned into two subsets: 
 $M_1 = {AC, CC, CU, CG, UC, GC, GU, GG}$ and 
@@ -47,11 +47,11 @@ By defining this map with $e$ as the identity, the genetic code can be expressed
 
 [Evolution algebras][Evolution algebras 2], on the other hand, are non-associative commutative sets. As seen in non-Mendelian genetics, evolution algebras are defined as ways to explain "puzzling" hereditary traits. First, note that in each cell, the mitochondria (the powerhouse of the cell!) can either all be the same (AKA homoplasmic) or they can contain a mix of different molecules (AKA heteroplasmic). See the image below: 
 
-<img width="576" height="432" alt="blog post - homoplasmic and heteroplasmic" src="https://gist.github.com/user-attachments/assets/4f2a3ef3-8551-4dd6-8a2f-14cb9c54036b" />
+<img width="576" height="432" alt="blog post - homoplasmic and heteroplasmic" src="blog post - homoplasmic and heteroplasmic.jpg" />
 
 The heteroplasmic cell can be expressed as $g_1$ and $g_2$, and the heteroplasmic cell can be expressed as $g_0$. We can illustrate the relationship between evolution algebras and abstract algebra using the image below: 
 
-<img width="576" height="432" alt="blog post - evolution algebras in cells" src="https://gist.github.com/user-attachments/assets/bb911ce9-5f82-427d-8dff-e964d79d1268" />
+<img width="576" height="432" alt="blog post - evolution algebras in cells" src="blog post - evolution algebras in cells.jpg" />
 
 This is the simple case where $g_0$, the heteroplasmic cell, is made up of both heteroplasmic and homoplasmic cells. In other words, 
 $g_0^2 = \pi g_0 + \alpha g_1 + \beta g_2$,
