@@ -112,5 +112,9 @@ However, the left side of each equation is skew symmetric with the other, but th
 So now comes the big question, why would I ever need a 7-dimensional cross product? Answers for this are fairly vague and I do not have much more room in this paper to fully explain an application. To keep it short, the 3-dimensional cross product is related to the Quarternions, and in a similar manner the 7-dimensional cross product is related to the Octonions. A key difference between these two groups (in terms of properties) is that the Quarternions are associative, but the Octonions are not associative. And for this reason the Jacobi Identity holds for 3-dimensional cross products, but does not hold for 7-dimensional cross products. Another thing to note is that the table given above for the 7-dimensional cross product is not the only table that satisfies the cross product properties, and there are actually 480 distinct tables that all satisfy the cross product properties in $\mathbb{R}^7$.
 
 For the "making something" part of the project its kind of impossible for me to think of a way to make something in 7 dimensions and represent how a cross product would look like. However, what I can do is make a chart that really simplifies how we can calculate any cross product of two basis vectors (assuming we are using the table from above because remember there are 480 possible versions of that table). In this figure to find $\vec{e_i}\times\vec{e_j}$, you start on the $\vec{e_i}$ vector and follow the arrow that points either towards or away from the $\vec{e_j}$ vector in order to find the resulting vector. If the path you followed pointed in the same direction as the arrows, the resulting vector is positive, if the path you followed went against the direction of the arrows, the resulting vector is negative.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{7d.jpg}
+\end{figure}
 \end{markdown}
 \end{document}
