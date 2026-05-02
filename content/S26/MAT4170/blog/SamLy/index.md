@@ -57,7 +57,7 @@ Nothing is inherently "wrong" with the solution he described, it clearly works! 
 
 Notice what happens if you draw a "1" near the edge of the screen. The preprocessing moves it to the middle! The reason behind is is because the MLP **memorizes** pixel locations. Let's see what happens if we remove that little step. Now, I'm not skilled enough as a programmer to reverse engineer his site, so I recreated a network with the same [hyperparamters](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) as his. Namely, a MLP with two 16-dimension hidden layers.
 
-(INCLUDE DEMO FROM WEBSITE HERE. NEED TO EMBED SOMEHOW)
+See a little demo [mnist_simple_mlp](https://group-theory-ml.samly.me/). 
 
 Now, what happens if you draw a "1" closer to the right hand side of the input field? It actually gets predicted as a "7"! This tells us that our network isn't really learning what we "want" it to. It is actually just **memorizing pixel locations**. It just so happens that in the dataset, a "vertical line around the right side of the screen" is heavily associated with a label of "7". 
 
@@ -65,7 +65,7 @@ Now, what happens if you draw a "1" closer to the right hand side of the input f
 
 Now, this "memorization" effect can be seen more clearly with this following example, where I have physically botched the dataset to have the different numbers in different locations in the input field. This example is **adversarial**, and serves to highlight the weakness of MLP's. 
 
-(INCLUDE mnist_biased_mlp EXAMPLE.)
+See a little demo [mnist_biased_mlp](https://group-theory-ml.samly.me/). 
 
 Obviously, this isn't realistic, but this type of bias *can* manifest itself in subtle ways with real-world data. What if we trained an animal classifier, but it just so happens in the dataset, birds are often in the top of the image, but cats are at the bottom. What happens if we have a jumping cat or a sitting bird?
 
@@ -73,7 +73,7 @@ Obviously, this isn't realistic, but this type of bias *can* manifest itself in 
 
 One way to fix this is to **augment** the dataset. We can shift around the dataset according to a **uniform distribution**, so our model will have seen examples of the numbers in all the locations. 
 
-(INCLUDE mnist_uniform_mlp EXAMPLE)
+See a little demo [mnist_uniform_mlp](https://group-theory-ml.samly.me/). 
 
 Now, this works mostly, but it is sort of "spiky". We can get unlucky, where some locations just happened to have an uneven distribution of training examples, and a "1" becomes a "9" or something.
 
