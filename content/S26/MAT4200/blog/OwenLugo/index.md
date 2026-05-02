@@ -64,12 +64,12 @@ I finished my 3D models of a cavatappo and cappelletto in Blender, as shown belo
 <table>
   <tr>
     <td align="center">
-      <img alt="Cavatappi_blender" src="https://gist.github.com/user-attachments/assets/91bc2bc9-9428-47a9-b6d2-990b720a4aa6" width="75%"/>
+      <img alt="Cavatappi_blender.png" src="https://gist.github.com/user-attachments/assets/91bc2bc9-9428-47a9-b6d2-990b720a4aa6" width="75%"/>
 <br>
       <em>Figure 1: Cavatappo with Thickness in Blender</em>
     </td>
     <td align="center">
-      <img alt="Cappelletti_blender" src="https://gist.github.com/user-attachments/assets/cc2a1abd-9ad3-48f1-9b01-6f14c845ce1b" width="75%"/>
+      <img alt="Cappelletti_blender.png" src="https://gist.github.com/user-attachments/assets/cc2a1abd-9ad3-48f1-9b01-6f14c845ce1b" width="75%"/>
 <br>
       <em>Figure 2: Cappelletto with Thickness in Blender</em>
     </td>
@@ -80,7 +80,7 @@ I finished my 3D models of a cavatappo and cappelletto in Blender, as shown belo
 I 3D printed a Cavatappi since it was one I knew would come out well in a 3D printer compared to other models. I got this knowledge by reading a book review by Laura Taalman. There, Laura Taalman's students successfully printed a Cavatappi. Due to the lack of time I had to print it, I printed it as small as possible and could not get its hollow structure because of its small size. This could be easily fixed by increasing its size.
 
 <p align="center">
-<img width="660" height="369" alt="Cavatappi_process" src="https://gist.github.com/user-attachments/assets/d767c340-69d8-493b-b111-72305da78d2c" /><br>
+<img width="660" height="369" alt="Cavatappi_process.jpg" src="https://gist.github.com/user-attachments/assets/d767c340-69d8-493b-b111-72305da78d2c" /><br>
 <em><strong>Figure 3:</strong> 3D Printing a Cavatappi</em>
 </p>
 
