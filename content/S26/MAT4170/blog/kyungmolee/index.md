@@ -16,7 +16,7 @@ So, we could have like:
 
 
 
-<img src="image.png" alt="description of image">
+<img src="ε, a, b, aa, ab, ba, bb, aaa, aab, aba, abb, ....png" alt="description of image">
 
 
 So, what you did informally is the free monoid. You did not know, but you did!How do you know you did this free monoid?
@@ -61,7 +61,7 @@ Before this, let's remind ourselves about the early weeks of this course. You wo
 If you don't remember, that's alright because we have our sticker!
 
 
-<img width="450" height="300" alt="image" src="https://gist.github.com/user-attachments/assets/942df8ed-f2d2-4ef8-bead-f9b1afb65a5a" />
+<img src="groupaxion.png" alt="description of image">
 
 
 
@@ -96,7 +96,7 @@ So far, the free monoid gives us a world of words. We start with symbols like a 
 Like the free monoids, but we have: 
 
 
-<img width="500" height="100" alt="image" src="https://gist.github.com/user-attachments/assets/458e80d6-fa3e-402a-9fb6-6f2b47732e50" />
+<img src="image.png" alt="description of image">
 
 What I mean is, we now have a^-1 and b^-1. So now we can “undo” things, just like I mentioned before. 
 More precisely, these inverse symbols satisfy.
