@@ -1,4 +1,13 @@
-
+---
+title: How Group Theory shows up in Computer Vision
+author: Sam Ly
+date: 2026-05-01
+type: blog
+courseNumber: MAT4170
+term: S26
+layout: layouts/blog.njk
+---
+  
 # The necessary group theory
 
 Before we continue with anything machine learning-y, I want to make sure we're on the same page of what **groups** are. Simply put, groups are special **sets** of objects along with a **well-defined binary operations between any two elements of the set**, that "behaves nicely". 
