@@ -82,12 +82,14 @@ We can now apply Classical MDS. It is important to note that Classical MDS, when
 Now $B = - \frac{1}{2} R D_{ij}^{2} R$, implying that $B \approx RYY^{T}R$, where $Y$ represents the coordinates of the Manifold. The next step is eigen-decomposition of $B$, which is $UTU^{T}$ because $B$ is symmetric. If we recall that $B = RXX^{T}R$, we can see that after some linear algebra the final embedding is $X_{k} = U_{k} \Gamma_{k}^{\frac{1}{2}}$, where $U_{k}$ is the matrix of eigen vectors and $\Gamma_{k}$ is the diagonal matrix of the eigen values. If we want the embedding in the $k\text{th}$ dimension, then we take the $k$ largest eigenvalues. Sometimes negative eigenvalues show up due to approximation errors, and depending on the field you are in, what you do when that happens varies. However, in machine learning, the standard is to keep the positive eigenvalues only.
 [Jonathan Taylor](https://web.stanford.edu/class/stats305c/lectures/MDS.html)
 
+<model-viewer alt="Rainbow Swiss Roll from Mathematica" src="https://github.com/RubinR10/class-website/blob/8397ff93efcf2dd350d1faac90ea1459c39359a0/RubinHassman/3D_Manifold%20(1)%20(1).glb"></model-viewer>
+
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/RubinR10/class-website/blob/a092380976b0f845cb19537112b6cfdc12c2f095/RubinHassman/download.png" width="300">
   <img src="https://github.com/RubinR10/class-website/blob/cf5f834e5933bbcdd03d81e5b709e11103d200e8/RubinHassman/Figure%202026-05-01%20185528.png" width="450">
 </div>
-The left is a 3D Model of a Swiss roll I constructed in Python, and the right is the Isomap of that manifold. Below is a 3D model of the Swiss Roll from Mathematica.
-<model-viewer alt="Your description here." src="filename.glb"></model-viewer>
+The left is a plot of the Swiss roll I constructed in Python, and the right is the Isomap of that manifold I constructed in Python. 
+
 
 # Local Linear Embedding
 
