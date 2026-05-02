@@ -18,10 +18,12 @@ We can begin our discussion of manifolds with a definition of what a manifold is
 Manifolds in $3$-dimensional space (generally $2$-dimensional manifolds) are easiest for us to  picture, given that we live in a $3$-dimensional world. Several examples would be a $2$-dimensional torus, $T^2$, or a $2$-dimensional sphere, $S^2$.
 
 **Figure 1-**$T^2$ **Manifold**
-<img width="343" height="353" alt="T2 Graphic" src="https://gist.github.com/user-attachments/assets/98ab9df9-edef-4727-a385-dd8f4412efff" /> 
+
+<img width="343" height="353" alt="T2 Graphic" src="T2 Graphic.png" /> 
 
 **Figure 2-**$S^2$ **Manifold**
-<img width="343" height="353" alt="S2 Graphic" src="https://gist.github.com/user-attachments/assets/eabecd95-27c4-4640-a434-47e1c1945147" />
+
+<img width="343" height="353" alt="S2 Graphic" src="S2 Graphic.png" />
 
 One important sub category of manifold for the subject of differential geometry is a _surface_. A surface can be defined as a $2$-dimentional manifold. Therefore, both a $2$-torus and a $2$-sphere would be considered surfaces. 
 
@@ -35,16 +37,19 @@ Now this definition is specifically related to a surface that is parameterized i
 Tangent spaces can be visualized in cases such as in $\mathbb{R}^3$ where they are represented as $2$-dimentional planes, which is tangent to the surface at any arbitrary point $p$. This plane is spanned by the principal, non-colinear velocity vectors representing the surface at the given point $p$.
 
 **Figure 3-Manifold with Tangent Plane at a Point**
-<img width="350" height="315" alt="Saddle with Tangent Plane" src="https://gist.github.com/user-attachments/assets/826123f2-c649-4d3c-a4e2-a63949a68596" />
+
+<img width="350" height="315" alt="Saddle with Tangent Plane" src="Saddle with Tangent Plane.png" />
 
 
 Now you may ask, what is the point of the tangent plane of a surface? One answer is that it allows us to find the unit normal vector for each point on a surface, which we can use in conjunction with Gaussian maps to find the curvature of a given point on a surface. 
 
 **Figure 4-Manifold with Tangent Space, Normal Vector, and Velocity Vectors at a Point**
-<img width="313" height="439" alt="Tangent space with normal vector" src="https://gist.github.com/user-attachments/assets/7a120b5b-1d3e-4e00-a411-0f5098ea86bd" />
+
+<img width="313" height="439" alt="Tangent space with normal vector" src="Tangent space with normal vector.png" />
 
 **Figure 5-Gaussian Sphere with Normal Vector from Manifold**
-<img width="331" height="344" alt="Gaussian Sphere" src="https://gist.github.com/user-attachments/assets/b463d8ea-3677-4315-a71a-1dbbea19b8a3" />
+
+<img width="331" height="344" alt="Gaussian Sphere" src="Gaussian Sphere.png" />
 
 
 
