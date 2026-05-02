@@ -35,7 +35,8 @@ Graeco Latin Squares are $n \times n$ squares with 2 sets $S_1$ and $S_2$ both w
 ![Solution using Cardcaptor Sakura Collector Playing Cards](IMG_1171.JPG)
 *Solution using Cardcaptor Sakura Collector Playing Cards*
 
-<img width="450" height="665" alt="IMG_1174" src="https://gist.github.com/user-attachments/assets/ef23af37-7ac5-465f-acc3-0fb8b254bbd9" /> *Solution using Sailor Moon Playing Cards with additional diagonal constraint*
+![Solution using Sailor Moon Playing Cards with additional diagonal constraint](IMG_1174.JPG)
+*Solution using Sailor Moon Playing Cards with additional diagonal constraint*
 
 The first published work about Latin squares was not written Euler but instead by korean mathematician Choi Seok-jeong almost seven decades before Euler. Choi shared the first example of a $9 \times 9$ using Chinese numerals in the *Koo-Soo-Ryak*, most similar to a common puzzle with Latin squares.  
 
@@ -93,8 +94,10 @@ We can construct a normal magic square of order $n = 2k+1$ where $k$ is some int
 
 For example, I've created a normal magic square of order 3 below:
 
+![Magic Square Construction 3x3](Magic Square Construction 3x3.gif)
+
 <img width="400" height="284" alt="Magic Square Construction 3x3" src="https://gist.github.com/user-attachments/assets/2ac8f10c-a36c-44c6-962a-2ce6a09cedd8" />  
 
 Another way to construct odd magic squares, one can utilize the Bachet method created by Claude-Gaspar Bachet de Méziriac shown below for a normal magic square of order 5. 
 
-<img width="896" height="234" alt="IMG_1175" src="https://gist.github.com/user-attachments/assets/d82740af-26a5-4781-be0e-1e4cd88427a7" />
+![Bechat method 5x5](IMG_1175.JPG)
