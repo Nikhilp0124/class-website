@@ -94,7 +94,7 @@ We can construct a normal magic square of order $n = 2k+1$ where $k$ is some int
 
 For example, I've created a normal magic square of order 3 below:
 
-![Magic Square Construction 3x3](Magic Square Construction 3x3.gif)
+![Magic Square Construction 3x3](content/S26/MAT4170/blog/AlyssaCruz/Magic Square Construction 3x3.gif)
 
 <img width="400" height="284" alt="Magic Square Construction 3x3" src="https://gist.github.com/user-attachments/assets/2ac8f10c-a36c-44c6-962a-2ce6a09cedd8" />  
 
