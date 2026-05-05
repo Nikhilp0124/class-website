@@ -1,13 +1,12 @@
 ---
 title: The Real Projective Plane & Boy's Surface
-author: Omar Othman
+author: Omar
 date: 2026-05-01
 type: blog
 courseNumber: MAT4200
 term: S26
 layout: layouts/blog.njk
 ---
-
 
 Introduction
 ============
