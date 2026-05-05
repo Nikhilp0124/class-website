@@ -19,12 +19,12 @@ Manifolds in $3$-dimensional space (generally $2$-dimensional manifolds) are eas
 
 <div class="grid two-column">
 <figure>
-  <img width="343" height="353" alt="T2 Graphic" src="T2 Graphic.png" />
+  <img width="343" height="353" alt="T2 Graphic" src="T2.png" />
   <figcaption>$T^2$ Manifold</figcaption>
 </figure>
 
 <figure>
-  <img width="343" height="353" alt="S2 Graphic" src="S2 Graphic.png" />
+  <img width="343" height="353" alt="S2 Graphic" src="S2.png" />
   <figcaption>$S^2$ Manifold</figcaption>
 </figure>
 </div>
@@ -41,7 +41,7 @@ Now this definition is specifically related to a surface that is parameterized i
 Tangent spaces can be visualized in cases such as in $\\mathbb{R}^3$ where they are represented as $2$-dimentional planes, which is tangent to the surface at any arbitrary point $p$. This plane is spanned by the principal, non-colinear velocity vectors representing the surface at the given point $p$.
 
 <figure>
-  <img width="350" height="315" alt="Saddle with Tangent Plane" src="Saddle with Tangent Plane.png" />
+  <img width="350" height="315" alt="Saddle with Tangent Plane" src="Saddle_with_Tangent_Plane.png" />
   <figcaption>Manifold with Tangent Plane at a Point</figcaption>
 </figure>
 
@@ -49,12 +49,12 @@ Now you may ask, what is the point of the tangent plane of a surface? One answer
 
 <div class="grid two-column">
 <figure>
-  <img width="313" height="439" alt="Tangent space with normal vector" src="Tangent space with normal vector.png" />
+  <img width="313" height="439" alt="Tangent space with normal vector" src="Tangent_space_with_normal_vector.png" />
   <figcaption>Manifold with Tangent Space, Normal Vector, and Velocity Vectors at a Point</figcaption>
 </figure>
 
 <figure>
-  <img width="331" height="344" alt="Gaussian Sphere" src="Gaussian Sphere.png" />
+  <img width="331" height="344" alt="Gaussian Sphere" src="Gaussian_Sphere.png" />
   <figcaption>Gaussian Sphere with Normal Vector from Manifold</figcaption>
 </figure>
 </div>
