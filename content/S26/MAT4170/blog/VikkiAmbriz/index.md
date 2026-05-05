@@ -8,7 +8,6 @@ term: S26
 layout: layouts/blog.njk
 ---
 
-# From Latin Squares to Loops: When Tables Stop Being Groups
 *Why every group table is a Latin square, but not every Latin square is a group*
 
 ## What are Latin Squares?
