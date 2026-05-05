@@ -37,14 +37,15 @@ The trouble is that Euler angles describe rotation as **three turns in a row**.
 When two of those turning directions line up, one direction disappears.
 
 That is **gimbal lock**, which you should be able to test out via the interactive.
-
-<model-viewer
-  src="dodecahedron_gimbal_lock.glb"
-  alt="Gimbal lock example"
-  camera-controls
-  auto-rotate
-  style="width: 100%; height: 400px;">
-</model-viewer>
+<div class="viewer">
+  <model-viewer
+    src="dodecahedron_gimbal_lock.glb"
+    alt="Gimbal lock example"
+    camera-controls
+    auto-rotate
+  >
+  </model-viewer>
+</div>
 
 ---
 
@@ -68,7 +69,7 @@ That is why animators, roboticists, graphics programmers, **and I** dislike gimb
 
 ## The highlevel math perspective *Since this is a math blog afterall
 
-The set of 3D rotations is called $SO(3)$. And the Kjy understanding is: 
+The set of 3D rotations is called $SO(3)$. And the Kjy understanding is:
 
 > 3D rotations do not behave like ordinary addition on a flat grid.
 
@@ -118,15 +119,15 @@ it says:
 - and here is the amount.
 
 That is the foundational idea as to why quaternions help to avoid gimbal lock
-
-<model-viewer
-  src="dodecahedron_quaternion_axis_angle.glb"
-  alt="Quaternion rotation example to prove that I'm right'"
-  camera-controls
-  auto-rotate
-  style="width: 100%; height: 400px;">
-</model-viewer>
-
+<div class="viewer">
+  <model-viewer
+    src="dodecahedron_quaternion_axis_angle.glb"
+    alt="Quaternion rotation example to prove that I'm right'"
+    camera-controls
+    auto-rotate
+    style="width: 100%; height: 400px;">
+  </model-viewer>
+</div>
 
 ---
 
@@ -201,7 +202,10 @@ This is the defintion:
 Given an algebra $A$, we form a new algebra of pairs $(a, b)$ with multiplication:
   $ (a, b)(c, d) = (a c - d^* b, d a + b c^*) $
 
-![Cayley-Dickson diagram](Caley-Dickson.jpg)
+<figure>
+  <img src="Caley-Dickson.jpg">
+  <figcaption>Cayley-Dickson diagram</figcaption>
+</figure>
 
 ```mermaid
 graph LR
@@ -212,10 +216,10 @@ graph LR
 
 A useful simplification for why this is cool is:
 
-- each order of deconstruction gives you an additional dimention to mess with in the same world of numbers. 
+- each order of deconstruction gives you an additional dimention to mess with in the same world of numbers.
 - but each step also loses a nice algebra rule
 
-So you get literally extra dimentions of perspectives to play with the same feild of numbers. If you have ever had to work with complex numbers, you can easily understand why thats useful *sometimes. 
+So you get literally extra dimentions of perspectives to play with the same feild of numbers. If you have ever had to work with complex numbers, you can easily understand why thats useful *sometimes.
 
 For example:
 
@@ -231,7 +235,7 @@ They are rich enough to model 3D rotation beautifully, but still rigid enough to
 ---
 
 ## Connecting with reality
-*just in case you were waiting for the spoiler, math is magic thus so are quaternions by induction, 
+*just in case you were waiting for the spoiler, math is magic thus so are quaternions by induction,
 QED.*
 
 I hope this post has shed light on the advantages of using quaternions, which is because they are good tool to do the following tasks:
@@ -254,4 +258,4 @@ This is why they show up in:
 ---
 
 
-## Try the demos *I hope they still work, else please use your ~Imagination~. 
+## Try the demos *I hope they still work, else please use your ~Imagination~.
