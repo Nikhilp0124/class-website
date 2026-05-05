@@ -8,8 +8,6 @@ term: S26
 layout: layouts/blog.njk
 ---
 
-A Brief Introduction to Evolution Algebras
-========================
 Remember Punnett Squares from high school biology? Punnett squares are a simple way of describing inheritance from parent to offspring. We use these to predict genotype(the genetics) and the phenotype(how an organism looks) based on looking at specific genes from parents.
 
 $$ \\begin{matrix}
@@ -101,7 +99,7 @@ Our first is an example in which we have two gene types: homoplasmic and heterop
 
 Let $g_0$ denote the heteroplasmic mitochondria(i.e contain $g_0, g_1, g_2$) and $g_1, g_2$ denote homoplasmic types(i.e. only contain themselves.)
 
-In biology, $g_0$ is called a transitory state, which will disappear after some cell generations. In comparison, $g_1 and g_2$ are stable states and are the same from generation to generation.
+In biology, $g_0$ is called a transitory state, which will disappear after some cell generations. In comparison, $g_1, g_2$ are stable states and are the same from generation to generation.
 
 We can then make an evolution algebra to denote this:
 
@@ -212,7 +210,7 @@ $\beta_{24} = \beta_{26} =  \frac{1}{2}$
 
 $\beta_{35} = \beta_{36} =  \frac{1}{2}$
 
-$\beta_{44} = \frac{5}{6}, \beta_{45} = \beta_{56} =  \frac{1}{12}$
+$\beta_{44} = \frac{5}{6}, \beta_{45} = \beta_{46} =  \frac{1}{12}$
 
 $\beta_{54} = \frac{2}{3}, \beta_{56} =  \frac{1}{3}$
 
@@ -220,6 +218,11 @@ $\beta_{64} = \frac{2}{3}, \beta_{65} =  \frac{1}{3}$
 
 ### Computer Simulation
 We will do one simulation. Using the above values, we will construct a Markov Chain in R. Using the Steady States function, we find that we end up with the expected proportions of 80% dupmtDNA, 10% wtmtDNA, and 10% $\delta$ mtDNA! Once again, we are able to model real life scenarios with our equations.
+Here is the plot of the markov chain:
+<figure>
+  <img width="400" height="400" alt="plot_markov_ex2" src="plot_markov_ex2.png" />
+  <figcaption>Plot of the Markov chain</figcaption>
+</figure>
 
 ## Why should I care about this?
 This is a very good question! Why should we care about these equations and what they prove? In the earlier example, we modelled several types of DNA-damaged mitochondria. Suppose we have specific treatments for specific types of damaged mitochondria. That is, we have a treatment for dup-mtDNA that will not work for wtmt-DNA, etc. Being able to personalize treatments without invasive procedures could be critical to improving patient outcomes and letting them live fullfilling lives with minimal intervention. We could also use this with people with other chronic conditions, like HIV or chronic Hepatitis.
