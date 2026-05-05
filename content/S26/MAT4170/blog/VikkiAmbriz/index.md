@@ -1,31 +1,37 @@
-title: From Latin Squares to Loops: When Tables Stop Being Groups
+---
+title: "From Latin Squares to Loops: When Tables Stop Being Groups"
 author: Vikki Ambriz
 date: 2026-05-01
 type: blog
 courseNumber: MAT4170
 term: S26
 layout: layouts/blog.njk
+---
 
 # From Latin Squares to Loops: When Tables Stop Being Groups
 *Why every group table is a Latin square, but not every Latin square is a group*
 
 ## What are Latin Squares?
 
-We encounter Latin Squares every day without even realizing it. They're in puzzles, tournament/work scheduling, classroom seating arrangements, etc. They're pretty much anywhere we want to arrange choices in such a way such that no two same choices end up in the same row or column. The most famous example of a Latin Square that you may enjoy is the Sudoku puzzle! Now that we have a faint idea of what Latin Squares are, let's formalize it. 
+We encounter Latin Squares every day without even realizing it. They're in puzzles, tournament/work scheduling, classroom seating arrangements, etc. They're pretty much anywhere we want to arrange choices in such a way such that no two same choices end up in the same row or column. The most famous example of a Latin Square that you may enjoy is the Sudoku puzzle! Now that we have a faint idea of what Latin Squares are, let's formalize it.
 
-A Latin Square is an *n* × *n* matrix with *n* ∈ ℕ such that no symbol or number appears more than once in each row or column. In other words, each symbol appears exactly once in every row and exactly once in every column. Usually, Latin Squares either consist of numbers from *1* to *n*, but letters and symbols are also often used. We refer to the number *n* as the "order" of the Latin Square. 
+A Latin Square is an $n \\times n$ matrix with $n \\in \\mathbb N$ such that no symbol or number appears more than once in each row or column. In other words, each symbol appears exactly once in every row and exactly once in every column. Usually, Latin Squares either consist of numbers from $1$ to $n$, but letters and symbols are also often used. We refer to the number $n$ as the "order" of the Latin Square.
 
-Below are some valid examples of Latin Squares of order *n* = 3:
+Below are some valid examples of Latin Squares of order $n = 3$:
 
-<img width="2396" height="841" alt="IMG_0569" src="https://gist.github.com/user-attachments/assets/81957086-b681-4d2c-bbcc-0bb80c756b83" /><br>
+<figure class="standalone">
+  <img src="latin_squares.jpg"/>
+  <figcaption>Examples of Latin Squares of order $n = 3$</figcaption>
+</figure>
+
 
 Below is a short video I created showing how Latin square ideas can help rotate nurses fairly across departments. Please excuse my stuttering; I was nervous!
 
-[![Watch my video](https://img.youtube.com/vi/iNrT0FwkGoo/0.jpg)](https://youtu.be/iNrT0FwkGoo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iNrT0FwkGoo?si=D9qhT5PPVBFRyrCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Figure 1. A nurse scheduling schedule based on Latin square structure.*
 
-While Latin Squares can be viewed as nothing but some sort of puzzle or scheduling tool, they also show up in Abstract Algebra. Specifically, the Latin Square property is present in **Cayley tables**, which are the operation tables of finite groups. 
+While Latin Squares can be viewed as nothing but some sort of puzzle or scheduling tool, they also show up in Abstract Algebra. Specifically, the Latin Square property is present in **Cayley tables**, which are the operation tables of finite groups.
 
 A Cayley table shows the result of combining elements of a group using the group operation. The rows and columns are labeled by the elements of the group, and each entry gives the result of applying the operation to the corresponding row and column elements. What makes this table special is that every group element appears exactly once in each row and column. This happens because group operations are reversible: every element has an inverse, so multiplying by a fixed element rearranges the elements of the group without repeating any of them. As a result, the Cayley table of any finite group always satisfies the Latin Square property and, thus, the Cayley table of any finite group always produces a Latin Square.
 
@@ -60,11 +66,11 @@ So we've identified a hierarchy:
 2. Every loop is a quasigroup.
 3. Every quasigroup has an operation table that is a Latin Square.
 
-However, we note that the reverse statements aren't always true. 
+However, we note that the reverse statements aren't always true.
 
 ## Quasigroups and Loops aren't Groups
 
-To see why quasigroups and loops aren't always groups, we can compare them directly back to the group axioms. A quasigroup already has closure because its operation table only uses elements from the same set. While it doesn't explicitly have an inverse element, it exhibits inverse-like behavior because equations like $a * x = b$ and $y * a = b$ have unique solutions. However, quasigroups don't have an identity element. 
+To see why quasigroups and loops aren't always groups, we can compare them directly back to the group axioms. A quasigroup already has closure because its operation table only uses elements from the same set. While it doesn't explicitly have an inverse element, it exhibits inverse-like behavior because equations like $a * x = b$ and $y * a = b$ have unique solutions. However, quasigroups don't have an identity element.
 
 A loop, on the other hand, satisfies the same two axioms as quasigroups *and* has an identity element. So loops are closer to groups than quasigroups are, *but*, loops fail to be groups because they may lack the associativity requirement to be a group. Basically, $(a * b) * c ≠ a * (b * c)$ which means loops can't be groups.
 
