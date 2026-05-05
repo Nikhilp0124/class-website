@@ -13,17 +13,15 @@ let's dive right away,
 think about the letter, a and b. let's just play with them under the concentration("Hello" + "World" = "HelloWorld").
 So, we could have like:
 
-
-
-
-<img src="ε, a, b, aa, ab, ba, bb, aaa, aab, aba, abb, ....png" alt="description of image">
-
+<figure>
+  <img src="monoid_list.png">
+</figure>
 
 So, what you did informally is the free monoid. You did not know, but you did!How do you know you did this free monoid?
 Well, the formal definition of a free monoid is as follows:
 
 > A free monoid over a set (X) is the set of all finite sequences (strings or words) formed by elements from (X), including the empty sequence, together with the operation of concatenation.
-> 
+>
 > It is the “freest” way to form a monoid from generators, meaning that there are no relations between elements other than those required by the monoid axioms: associativity and the existence of an identity element.
 
 So, how do we prove that what we did with a and b is free monoid?
@@ -60,10 +58,9 @@ Let's figure out why!
 Before this, let's remind ourselves about the early weeks of this course. You would first be introduced to the group.
 If you don't remember, that's alright because we have our sticker!
 
-
-<img src="groupaxion.png" alt="description of image">
-
-
+<figure>
+  <img src="groupaxion.png">
+</figure>
 
 So, those are the property of the group! Why am I talking about the group all of a sudden from the monoid?
 It is because the monoids is sorta a group, without the inverse property.
@@ -74,16 +71,14 @@ So, formally, the monoid is following:
 
 Definition: Monoid
 
-> A monoid is a set M together with a binary operation
-> 
-> * : M × M → M
-> 
-> that satisfies the following properties for all a, b, c ∈ M:
-> 
+> A monoid is a set $M$ together with a binary operation
+> $* : M \times M \to M$
+> that satisfies the following properties for all $a, b, c \in M$:
+>
 > Closure: a * b ∈ M
-> 
+>
 > Associativity: a * (b * c) = (a * b) * c
-> 
+>
 > Identity: There exists an element 1_M ∈ M such that 1_M * a = a * 1_M = a
 
 By now, you would probably know what the group is, and it is the one you will deal with until the last phase of the class.
@@ -93,23 +88,23 @@ For example, if there are no inverse properties, like monoids, you and I do not 
 
 You see, even though there are different name for concepts, in abstract algebra, or any other math we are learning is all related.
 So far, the free monoid gives us a world of words. We start with symbols like a and b, and build all finite words from them. But what if we add the inverse property to this structure? What kind of object would we get then? Once we want each generator to have an inverse, we are naturally led to the idea of a free group.
-Like the free monoids, but we have: 
+Like the free monoids, but we have:
 
 
-<img src="image.png" alt="description of image">
+<img src="free_group.png">
 
-What I mean is, we now have a^-1 and b^-1. So now we can “undo” things, just like I mentioned before. 
+What I mean is, we now have a^-1 and b^-1. So now we can “undo” things, just like I mentioned before.
 More precisely, these inverse symbols satisfy.
 
-> aa^-1 = e = a^-1a and bb^-1 = e = b^-1b, where e is the identity. 
+> aa^-1 = e = a^-1a and bb^-1 = e = b^-1b, where e is the identity.
 
-Because of this, whenever a letter is immediately followed by its inverse, that pair cancels. 
+Because of this, whenever a letter is immediately followed by its inverse, that pair cancels.
 This is the key difference between the free monoid and the free group: in the free group, words can be reduced by cancellation.
-Looking back, the progression from free monoids to free groups gives a nice picture of how abstract algebra works. 
+Looking back, the progression from free monoids to free groups gives a nice picture of how abstract algebra works.
 We begin with a simple structure: words, concatenation, and the empty word. That gives us a free monoid, and therefore a monoid. But once we ask for inverses, we are pushed into a richer structure, the free group. This is why every group is a monoid, but not every monoid is a group. A group contains everything a monoid has, together with inverses for every element. So in this small journey from words to cancellation, we see one of the central ideas of abstract algebra: different structures are not separate islands, but are linked together in meaningful ways.
 
-So, I believe that this course MATH 4170 is like what I did so far, you get to learn something that looks hmm...not bad... but you get to add one or two, and all of a sudden, there are new names, sounding like you heard before, yet you are not sure what it means until you see the formal proof. 
+So, I believe that this course MATH 4170 is like what I did so far, you get to learn something that looks hmm...not bad... but you get to add one or two, and all of a sudden, there are new names, sounding like you heard before, yet you are not sure what it means until you see the formal proof.
 As a former student, I want to tell you that we have to make the connection among those concepts, so we can truly be one step closer to a grade of B...
 
 
-Thank you reading til the end! Hope you learned something! 
+Thank you reading til the end! Hope you learned something!
