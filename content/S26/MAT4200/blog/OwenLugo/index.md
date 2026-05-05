@@ -38,7 +38,7 @@ $$\\mathbf{N}=\\displaystyle \\frac{\\mathbf{r}_i\\times \\mathbf{r}_j}{||\\math
 **Step 4:** Using $\\mathbf{N}$, we can now move each point on the surface by using
 
 $$
-\\mathbf{r}(i,j) + t \\mathbf{r}(i, j),
+\\mathbf{r}(i,j) + t \\mathbf{N},
 $$
 
 where $t\\in \\mathbb{R}$.
