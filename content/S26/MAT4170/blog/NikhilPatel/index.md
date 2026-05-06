@@ -15,7 +15,7 @@ Normally, groups in this class require four things in order to be classified as 
 It is interesting that we keep expanding on the idea of a group, but we have not really explored the bare minimum. By removing most of the requirements of a group and leaving closure, we get a structure called a magma. From magmas we can add associativity to get semigroups. From semigroups if we add the existence of an identity element we get monoids, which then leaves adding in the property of inverses in order to finally get to groups.
 
 <div align="center">
-  <img width="200" height="400" alt="Structure_Hierarchy" src="https://gist.github.com/user-attachments/assets/a6ae9722-21f8-49c3-8293-937c7f1e05d1" />
+  <img width="200" height="400" alt="Structure_Hierarchy" src="Structure_Hierarchy.png" />
 </div>
 
 
@@ -35,7 +35,7 @@ Magmas give a baseline from which every other algebraic structure is built by ad
 ### Rock, Paper, Scissors
 
 <div align="center">
-  <img width="400" height="" alt="Rock,Paper,Scissors" src="https://gist.github.com/user-attachments/assets/9a319bf3-77e3-44d1-a89d-b30e2b1790db" />
+  <img width="400" height="" alt="Rock,Paper,Scissors" src="Rock,Paper,Scissors.png" />
 </div>
 
 Consider the set $\{R, P, S\}$, where $a * b$ is defined as the winner of the match, where
