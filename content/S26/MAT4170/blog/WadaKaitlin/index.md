@@ -1,5 +1,5 @@
 ---
-title: "Genetic Code and Evolution Algebras: Same Same, or Different?"
+title: "Genetic Code and Evolution Algebras: Same or Different?"
 author: Kaitlin Wada
 date: 2026-05-01
 type: blog
@@ -14,7 +14,7 @@ Ever wonder how mutations and genetics in nature can be expressed mathematically
 
 [Mendelian genetics][Mendelian 1] refers to the principles of segregation and independent assortment developed by Gregor Mendel in the 1800s. This type of genetics involves the relationships of dominant and recessive traits in alleles, including ''incomplete dominance, codominance, multiple alleles, sex-linked traits, and multigene traits." On the other hand, [non-Mendelian genetics][Mendelian 2] refers to the random segregation of non-nuclear organelles, often from the female parent in animals and organisms, that do not follow Mendel's laws.
 
-When describing Mendelian genetics, scholars often use [genetic code][Genetic code 1], which refers to ''the instructions contained in a gene that tell a cell how to make a specific protein.'' Genetic code can be expressed by underlying symmetries, which can be used to form relationships to certian groups (such as Lie groups or Klein 4-groups). When it comes to non-Mendelian genetics, the randomness of these organelles prevents this set of genes from forming groups. Instead, we use [evolution algebras][Evolution algebras 1], which are still a part of genetic algebras, but are specifically used to algebraically describe non-Mendelian genetics. Genetic algebras are, very generally, a type of algebra that models inheritence in [genetics][Genetic algebras]. They are often non-associative, although it is not always the case.
+When describing Mendelian genetics, scholars often use [genetic code][Genetic code 1], which refers to ''the instructions contained in a gene that tell a cell how to make a specific protein.'' Genetic code can be expressed by underlying symmetries, which can be used to form relationships to certian groups (such as Lie groups or Klein 4-groups). When it comes to non-Mendelian genetics, the randomness of these organelles prevents this set of genes from forming groups. Instead, we use [evolution algebras][Evolution algebras 1], which are still a part of genetic algebras, but are specifically used to algebraically describe non-Mendelian genetics. Genetic algebras are, very generally, a type of algebra that models inheritance in [genetics][Genetic algebras]. They are often non-associative, although it is not always the case.
 
 Throughout this post, we will use the world of abstract algebra to compare and contrast the genetic code of Mendelian genetics and the evolution algebras of non-Mendelian genetics.
 
@@ -33,13 +33,21 @@ The biggest difference between genetic code and evolution algebras is that genet
 <img width="576" height="432" alt="blog post - D2 K4 isomorphism" src="D2_K4_isomorphism.jpg" />
 
 The genetic code is symmetric using code-doublets, which can be partitioned into two subsets:
-$M_1 = {AC, CC, CU, CG, UC, GC, GU, GG}$ and
-$M_2 = {CA, AA, AU, AG, GA, UA, UU, UG}$.
+$$
+  \\begin{align*}
+    M_1 &= \\{AC, CC, CU, CG, UC, GC, GU, GG\\}\\\\
+    M_2 &= \\{CA, AA, AU, AG, GA, UA, UU, UG\\}
+  \\end{align*}.
+$$
 
 We can then denote the exchange operators $(e, \\alpha, \\beta, \\gamma)$ to define the map:
-$\\alpha : A \\leftrightarrow C \\, U \\leftrightarrow G$ ,
-$\\beta: A \\leftrightarrow U \\, C \\leftrightarrow G$ , and
-$\\gamma: A \\leftrightarrow G \\, U \\leftrightarrow C$.
+$$
+  \\begin{align*}
+    \\alpha\\colon &A \\leftrightarrow C \\, U \\leftrightarrow G \\\\
+    \\beta\\colon &A \\leftrightarrow U \\, C \\leftrightarrow G \\\\
+    \\gamma\\colon &A \\leftrightarrow G \\, U \\leftrightarrow C
+  \\end{align*}.
+$$
 
 By defining this map with $e$ as the identity, the genetic code can be expressed as the Klein 4 Group.
 
