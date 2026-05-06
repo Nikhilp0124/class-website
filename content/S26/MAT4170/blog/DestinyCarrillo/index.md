@@ -11,13 +11,13 @@ You're probably thinking right now, "What the heck is a Latin square?" and also,
 ## What Are Latin Squares?
 Well, to answer your first thought, a Latin square is an *n* x *n* grid where every element/symbol in it appears exactly once in each row and column. Need a visual? I got you!  
 <p align="center">
-<img src="https://i.imgur.com/92RyNH4.jpeg" alt ="FIgure 1" width="200" height="200">
+<img src="IMG_0588.jpeg" alt ="Example of Latin square with elements 1, 2, 3" width="200" height="200">
 <em> Figure 1: Example of a 3x3 Latin Square with elements 1, 2, 3 </em>
 </p>
 
 Here's another visual if that wasn't enough for you!
 <p align="center">
-<img src="https://i.imgur.com/ylGfkOV.jpeg" alt ="FIgure 2" width="200" height="200">
+<img src="IMG_0588(2).jpeg" alt ="Example of a Latin square with symbols" width="200" height="200">
 <em> Figure 2: Example of a 3x3 Latin Square with symbols </em>
 </p>
 
@@ -34,7 +34,7 @@ Now that we can put a face to the name, let's talk about some basic key properti
 
 These basic properties are just that, the bare bones of what makes a Latin square. More properties can be added depending on the *type* of Latin square we are looking at, but that's a conversation for another time. Let's focus on the last property that was listed: Algebraic Characterization. 
 
-Looking back at the property, what might we mean by a multiplication table? Well, there's another word(s) for it that we're more familiar with that may help us. Remember Cayley tables from our abstract algebra class? Yes? Perfect! Let's replace the word multiplication with Cayley then: Latin squares are viewed as a *Cayley table* of a structure called a quasigroup. As a matter of fact, Cayley tables of any group can be viewed as a Latin square! Keep in mind, however, the converse is **not** true, as not every Latin square comes from a group. So while every group gives us a Latin square, not every Latin square gives us a group. 
+Looking back at the property, what might we mean by a multiplication table? Well, there's another word(s) for it that we're more familiar with that may help us. Remember Cayley tables from our abstract algebra class? Yes? Perfect! Let's replace the word multiplication with Cayley, then: Latin squares are viewed as a *Cayley table* of a structure called a quasigroup. As a matter of fact, Cayley tables of any group can be viewed as a Latin square! Keep in mind, however, the converse is **not** true, as not every Latin square comes from a group. So while every group gives us a Latin square, not every Latin square gives us a group. 
 
 ## Isomorphism in Latin Squares
 By now you're probably thinking, "Okay, cool, but I still don't know when two Latin squares are the same." Well, good news for you because we're about to dive right into it.
@@ -42,7 +42,7 @@ By now you're probably thinking, "Okay, cool, but I still don't know when two La
 Let's think about the Cayley tables of finite groups. Recall that in group theory, specifically in our abstract algebra class, two Cayley tables are the same if their groups are isomorphic to each other. As a refresher, to be isomorphic means there's a bijection that preserves the operation exactly. Here's an example of two groups being isomorphic to each other:
 
 <p align="center">
-<img src="https://i.imgur.com/OKPmsZT.jpeg" alt ="FIgure 3" width="400" height="200">
+<img src="IMG_0593.jpeg" alt ="Example of two Cayley tables isomorphic to each other" width="400" height="200">
   <em> Figure 3: Cayley tables of two isomorphic groups ℤ/2ℤ x ℤ/2ℤ and D<sub>4</sub> / < r <sup> 2 </sup> >
   </em>
 </p> 
@@ -52,7 +52,7 @@ In Figure 3, we can see that the two groups are different in the sense that one 
 Given that Cayley tables are Latin squares, any Latin square can be relabeled to look like another. Here's an example of this: 
 
 <p align="center">
-<img src ="https://i.imgur.com/7sW4fDI.jpeg" alt = "Alt Text" width = "400" height = "220">
+<img src ="IMG_0588(1).jpeg" alt = "Relabeling Figure 1 to get Figure 2" width = "400" height = "220">
   <em> Figure 4: Relabeling Figure 1 to get Figure 2 </em>
 </p>
 
@@ -71,7 +71,7 @@ Note: All three transformations **don't** need to be applied for two squares to 
 
 Here's a visual:
 <p align="center">
-<img src ="https://i.imgur.com/gnL6y2a.jpeg" alt = "Alt Text" width = "600" height = "200">
+<img src ="IMG_0594.jpeg" alt = "Example of Isotophism" width = "600" height = "200">
   <em> Figure 5: Example of isotophism with a 4x4 Latin square </em>
 </p>
 
